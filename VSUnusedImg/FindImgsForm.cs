@@ -143,7 +143,7 @@ namespace JitbitSoftware.VSUnusedImg
 
             //ok, now we have a list of filenames and a list of images. lets do the search
             //i know this way of iterating though files for every image is ineffective,will come up with somehting smarter later
-            progressBar1.Maximum = codefiles.Count * images.Count;
+            progressBar1.Maximum = images.Count;
             int j = 0;
             foreach (var img in images)
             {
@@ -164,11 +164,13 @@ namespace JitbitSoftware.VSUnusedImg
                         break;
                     }
 					*/
-
-                    progressBar1.Value = j;
-                    j++;
-                    Application.DoEvents();
                 }
+
+				//update progress bar
+				progressBar1.Value = j;
+				j++;
+				Application.DoEvents();
+
                 if (!found)
                 {
                     lstImages.Items.Add(img.Name.ToLower());
