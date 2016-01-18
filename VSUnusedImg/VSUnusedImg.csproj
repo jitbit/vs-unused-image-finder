@@ -151,11 +151,6 @@
       <DependentUpon>FindImgsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Guids.cs" />
-    <Compile Include="Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="VSUnusedImgPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -164,11 +159,6 @@
   <ItemGroup>
     <EmbeddedResource Include="FindImgsForm.resx">
       <DependentUpon>FindImgsForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="VSPackage.resx">
       <MergeWithCTO>true</MergeWithCTO>
