@@ -66,6 +66,7 @@ namespace JitbitSoftware.VSUnusedImg
                 }
             }
 
+			/*
             List<String> ResourceFiles = new List<string>();
             foreach (var projectItem in ProjectItems)
             {
@@ -136,6 +137,7 @@ namespace JitbitSoftware.VSUnusedImg
                         break;
                 }
             }
+			*/
 
             _unusedImages = new List<ProjectItem>();
 
@@ -155,11 +157,13 @@ namespace JitbitSoftware.VSUnusedImg
                         found = true;
                         break;
                     }
+					/*
                     else if (code.Contains(StrongNames[img.Name].ToLower()))
                     {
                         found = true;
                         break;
                     }
+					*/
 
                     progressBar1.Value = j;
                     j++;
