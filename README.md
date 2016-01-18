@@ -6,7 +6,7 @@ This Visual Studio Extension searches for unused images in your web project (and
 
 ##Installing##
 
-Download it from the "downloads" section.
+Download it from the "release" section.
 
 **OR** - get it here http://visualstudiogallery.msdn.microsoft.com/fb7a9b9c-08e1-4bb4-91b4-8e512feb5a1b
 
