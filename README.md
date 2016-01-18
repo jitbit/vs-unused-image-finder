@@ -1,4 +1,4 @@
-#VS Unused Images Finder#
+#Visual Studio Unused Images Finder#
 
 This Visual Studio Extension searches for unused images in your web project (and optionally removes them)
 
