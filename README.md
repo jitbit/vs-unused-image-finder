@@ -18,6 +18,6 @@ Right-click your project in solution explorer and choose "Find unused images"
 
 First, it scans a project for image files, then it searches for references in .aspx/.ashx/.cs/.css/.js files.
 
-##DISCLAIMER##
+###License###
 
-This is the early version. It works. But might have some UI-bugs...
+MIT license. AKA "do whatever you want, just make sure you link to the author"
