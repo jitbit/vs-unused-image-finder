@@ -4,3 +4,8 @@ _ReSharper.*
 bin
 obj
 packages
+/.vs/VSUnusedImg/v15/Server/sqlite3/storage.ide-wal
+/.vs/VSUnusedImg/v15/Server/sqlite3/storage.ide-shm
+/.vs/VSUnusedImg/v15/Server/sqlite3/storage.ide
+/.vs/VSUnusedImg/v15/Server/sqlite3/db.lock
+/UpgradeLog.htm
