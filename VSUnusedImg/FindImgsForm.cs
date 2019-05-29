@@ -38,7 +38,9 @@ namespace JitbitSoftware.VSUnusedImg
                     string filename = projectItem.FileNames[(short)(i + 1)].ToLower(); //1-based array.. I hate COM
                     if (filename.EndsWith(".cs")
                         || filename.EndsWith(".aspx")
-                        || filename.EndsWith(".ascx")
+						|| filename.EndsWith(".html")
+						|| filename.EndsWith(".htm")
+						|| filename.EndsWith(".ascx")
                         || filename.EndsWith(".ashx")
                         || filename.EndsWith(".cshtml")
                         || filename.EndsWith(".css")
@@ -59,7 +61,8 @@ namespace JitbitSoftware.VSUnusedImg
                     string imgname = projectItem.Name.ToLower();
                     if (imgname.EndsWith(".jpg")
                         || imgname.EndsWith(".png")
-                        || imgname.EndsWith(".gif"))
+						|| imgname.EndsWith(".jpeg")
+						|| imgname.EndsWith(".gif"))
                     {
                         images.Add(projectItem);
                     }
