@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="099ef6b8-8a88-4cf1-96fe-a585affdbd0c" Version="1.6" Language="en-US" Publisher="Jitbit Software" />
+        <Identity Id="099ef6b8-8a88-4cf1-96fe-a585affdbd0c" Version="1.6.1" Language="en-US" Publisher="Jitbit Software" />
         <DisplayName>VS Unused Images Finder</DisplayName>
         <Description xml:space="preserve">Searches for unused images in a web project</Description>
         <MoreInfo>https://github.com/jitbit/vs-unused-image-finder</MoreInfo>
