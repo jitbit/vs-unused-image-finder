@@ -22,4 +22,4 @@ First, it scans a project for image files, then it searches for references in .a
 
 MIT license. AKA "do whatever you want, just make sure you link to the author"
 
-<code>&copy; developed by (& heavily used at) Jitbit&trade; the company behind <a href="https://www.jitbit.com/helpdesk/">Jitbit Helpdesk</a></code>
+<code>&copy; developed by (& heavily used at) Jitbit&trade; the company behind <a href="https://jitbit.github.com/helpdesk/">Jitbit Helpdesk</a></code>
