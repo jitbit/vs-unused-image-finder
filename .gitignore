@@ -9,3 +9,5 @@ packages
 /.vs/VSUnusedImg/v15/Server/sqlite3/storage.ide
 /.vs/VSUnusedImg/v15/Server/sqlite3/db.lock
 /UpgradeLog.htm
+
+.vs/
