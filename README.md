@@ -16,7 +16,7 @@ Download it from the "release" section.
 
 Right-click your project in solution explorer and choose "Find unused images"
 
-First, it scans a project for image files, then it searches for references in .aspx/.ashx/.cs/.css/.js files.
+First, it scans a project for image files, then it searches for references in .aspx/.ashx/.cs/.css/.js/.cshtml and other files.
 
 ### License ###
 
