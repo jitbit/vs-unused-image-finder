@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="099ef6b8-8a88-4cf1-96fe-a585affdbd0c" Version="1.6.2" Language="en-US" Publisher="Jitbit Software" />
+        <Identity Id="099ef6b8-8a88-4cf1-96fe-a585affdbd0c" Version="1.6.3" Language="en-US" Publisher="Jitbit Software" />
         <DisplayName>VS Unused Images Finder</DisplayName>
         <Description xml:space="preserve">Searches for unused images in a web project</Description>
         <MoreInfo>https://github.com/jitbit/vs-unused-image-finder</MoreInfo>
         <Icon>1332505758_picture.ico</Icon>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,17.0]" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,]" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.7.2,4.8]" />
     </Dependencies>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,]" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
